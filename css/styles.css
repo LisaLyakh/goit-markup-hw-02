@@ -18,11 +18,13 @@ body {
   background-size: cover;
 }
 .logo {
+  color: var(--theme-text-accent);
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.23;
+  text-decoration: none;
 }
 .web {
   color: var(--theme-button);
@@ -31,6 +33,17 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.23;
+  text-decoration: none;
+}
+.logo-footer{
+  color: var(--theme-accent);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.23;
+  text-decoration: none;
+
 }
 .navigation {
   color: var(--theme-text-accent);
@@ -39,6 +52,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .navigation:hover {
   color: var(--theme-button);
@@ -49,6 +63,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .link:hover {
   color: var(--theme-button);
@@ -70,22 +85,37 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
-  position: absolute;
   cursor: pointer;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: var(--theme-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--theme-button);
+  border-radius: 4px;
+
 }
 .button-options {
-  color: var(--theme-button-other);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--theme-text-accent);
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--theme-button-other);
   cursor: pointer;
   height: 38px;
   border-radius: 4px;
 }
 .button-options:hover {
-  color: var(--theme-button);
+  background-color: var(--theme-button);
 }
 .benefits-header {
   color: var(--theme-text-accent);
@@ -117,14 +147,20 @@ body {
 }
 .employees-text {
   color: var(--theme-text-accent);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 
 }
 .employees-text-secondary {
   color:var(--theme-text);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .footer {
   background: url('/images/Footer-bg.svg');
@@ -134,17 +170,38 @@ body {
   top: 2097px;
 }
 .address {
+  color: var(--theme-accent);
   margin-bottom: 25px;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+
 }
 .text {
+  font-family: 'Roboto';
+  font-weight: 700;
   color: var(--theme-text-accent);
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+
 }
 .text-secondary {
+  font-family: 'Roboto';
+  font-weight: 400;
   color: var(--theme-text);
   font-size: 16px;
   line-height: 1.85;
+  letter-spacing: var(--theme-text);
+  text-decoration: none;
 }
