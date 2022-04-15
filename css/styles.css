@@ -163,7 +163,7 @@ body {
   letter-spacing: 0.03em;
 }
 .footer {
-  background: url('/images/Footer-bg.svg');
+  background-color:#2F303A;
   width: 1600px;
   height: 252px;
   left: 0px;
